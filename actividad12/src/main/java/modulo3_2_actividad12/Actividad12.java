@@ -7,5 +7,8 @@ public class Actividad12 {
         double bono = 50.0;
 
         // TODO: calcula el sueldo semanal total.
+        double sueldoBase = horasTrabajadas*pagoPorHora;
+        double sueldoSemanalTotal = sueldoBase+bono;
+        System.out.println("Sueldo base: "+sueldoBase+"\nBono: "+bono+"\nTotal: "+sueldoSemanalTotal);
     }
 }

@@ -5,8 +5,8 @@ public class Actividad05 {
         int total = 17;
         int personas = 5;
 
-        int cociente = total % personas;
-        int resto = total / personas;
+        int cociente = total / personas;
+        int resto = total % personas;
 
         System.out.println("Cociente: " + cociente);
         System.out.println("Resto: " + resto);

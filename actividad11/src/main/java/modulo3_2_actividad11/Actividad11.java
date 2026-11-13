@@ -6,5 +6,8 @@ public class Actividad11 {
         int alumnos = 6;
 
         // TODO: calcula reparto y sobrantes.
+        int reparto = caramelos/alumnos;
+        int sobrante = caramelos%alumnos;
+        System.out.println("Cada alumno recibe: "+reparto+"\nSobran: "+sobrante);
     }
 }

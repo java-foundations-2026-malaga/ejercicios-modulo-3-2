@@ -6,7 +6,7 @@ public class Actividad04 {
         double nota2 = 8.0;
         double nota3 = 10.0;
 
-        double promedio = nota1 + nota2 + nota3 / 3;
+        double promedio = (nota1 + nota2 + nota3) / 3;
         System.out.println("Promedio: " + promedio);
     }
 }
