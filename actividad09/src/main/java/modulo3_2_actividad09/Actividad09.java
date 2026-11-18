@@ -6,6 +6,8 @@ public class Actividad09 {
         double nota2 = 8.0;
         double nota3 = 9.5;
 
-        // TODO: calcula el promedio.
+        double notaMedia = (nota1 + nota2 + nota3) / 3;
+
+        System.out.println ("Promedio: " + notaMedia);
     }
 }
