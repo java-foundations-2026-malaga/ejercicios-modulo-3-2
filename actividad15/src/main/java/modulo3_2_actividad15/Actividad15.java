@@ -7,5 +7,10 @@ public class Actividad15 {
         int tiempoRestante = 45;
 
         // TODO: monedas valen 10, enemigos 100 y cada segundo restante 2.
+        int puntuacion = (monedas * 10)
+                + (enemigosDerrotados * 100)
+                + (tiempoRestante * 2);
+
+        System.out.println("Puntuacion total: " + puntuacion);
     }
 }

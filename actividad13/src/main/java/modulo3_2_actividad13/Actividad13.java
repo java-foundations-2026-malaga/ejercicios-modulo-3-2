@@ -5,5 +5,8 @@ public class Actividad13 {
         double celsius = 25.0;
 
         // TODO: aplica la formula de conversion.
+        double fahrenheit = (celsius * 9.0 / 5.0) + 32;
+
+        System.out.println("Fahrenheit: " + fahrenheit);
     }
 }
