@@ -5,6 +5,11 @@ public class Actividad07 {
         double precioUnitario = 15.0;
         int cantidad = 2;
 
-        // TODO: calcula subtotal, impuesto y total.
+        double preCant = (precioUnitario * cantidad);
+        double ivaAplicado = (preCant * 0.21);
+
+        System.out.println ("Subtotal: " + preCant);
+        System.out.println ("Impuesto: " + ivaAplicado);
+        System.out.println ("Total: " + (preCant + ivaAplicado));
     }
 }
