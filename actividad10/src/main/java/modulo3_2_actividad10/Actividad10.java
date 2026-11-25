@@ -6,5 +6,7 @@ public class Actividad10 {
         double pi = 3.1416;
 
         // TODO: calcula perimetro y area.
+        System.out.println("Perimetro: " + radio * 2 * pi);
+        System.out.println("Area: " + radio * radio * pi);
     }
 }

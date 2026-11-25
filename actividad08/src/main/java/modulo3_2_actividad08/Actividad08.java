@@ -5,5 +5,7 @@ public class Actividad08 {
         int minutos = 135;
 
         // TODO: calcula horas completas y minutos restantes.
+        System.out.println("Horas: " + minutos / 60);
+        System.out.println("Minutos restantes: " + minutos % 60);
     }
 }

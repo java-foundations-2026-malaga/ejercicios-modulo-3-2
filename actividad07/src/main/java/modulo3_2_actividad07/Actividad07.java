@@ -6,5 +6,8 @@ public class Actividad07 {
         int cantidad = 2;
 
         // TODO: calcula subtotal, impuesto y total.
+        System.out.println("Subtotal: " + (precioUnitario * cantidad));
+        System.out.println("Impuesto: " + ((precioUnitario * cantidad) * 0.21));
+        System.out.println("Total: " + ((precioUnitario * cantidad) + ((precioUnitario * cantidad) * 0.21)));
     }
 }

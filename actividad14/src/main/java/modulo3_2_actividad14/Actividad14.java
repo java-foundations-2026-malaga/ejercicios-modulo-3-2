@@ -7,5 +7,10 @@ public class Actividad14 {
         double porcentajeDescuento = 10.0;
 
         // TODO: calcula subtotal, descuento y total final.
+        System.out.println("Subtotal: " + precio * cantidad);
+        System.out.println("Descuento: " + ((precio * cantidad) * (porcentajeDescuento / 100f)));
+        System.out.println("Total final: " + ((precio * cantidad) - ((precio * cantidad) * (porcentajeDescuento / 100f))));
+
+
     }
 }

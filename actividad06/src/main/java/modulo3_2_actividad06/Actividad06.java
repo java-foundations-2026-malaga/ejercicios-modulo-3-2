@@ -6,5 +6,6 @@ public class Actividad06 {
         int altura = 5;
 
         // TODO: calcula e imprime el area.
+        System.out.println("Area: " + (base * altura));
     }
 }
